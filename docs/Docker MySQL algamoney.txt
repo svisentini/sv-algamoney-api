@@ -1,5 +1,5 @@
-docker run -e MYSQL_ROOT_PASSWORD=123 --name mysql-algamoney3 -d -p 3306:3306 --volume=/GIT/algamoney/mysql-data-algamoney:/var/lib/mysql mysql
+docker run -e MYSQL_ROOT_PASSWORD=123 --name mysql-algamoney4 -d -p 3306:3306 --volume=/GIT/sv-algamoney-api/mysql-data-algamoney:/var/lib/mysql mysql
 
-docker inspect mysql-algamoney3
+docker inspect mysql-algamoney4
 
 "IPAddress": "172.17.0.2"
